@@ -8,12 +8,13 @@ import Dicas from './Page/Dicas'
 import PorOndeAlugar from './Page/PorOndeAlugar';
 
 
+
 ReactDOM.render(
     <Router>
         <Route exact path='/' component={App} / >
         <Route path='/Home' component={Home} />
         <Route path='/Dicas' component={Dicas} />
-        <Route path='/PorOndeAndar' component={PorOndeAlugar} />
+        <Route path='/PorOndeAlugar' component={PorOndeAlugar} />
     </Router>,
     document.getElementById('root'));
 

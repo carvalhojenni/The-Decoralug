@@ -2,7 +2,8 @@ import React from 'react'
 import Nav from '../../Component/Nav'
 import Header from '../../Component/Header'
 import Footer from '../../Component/Footer'
-import Card from  '../Dicas/component/Card'
+import Cards from  './component/Cards'
+import Input from './component/Input'
 
 
 function Dicas(){
@@ -10,9 +11,10 @@ function Dicas(){
         <div>
             <Nav/>
             <Header/>
+            <p className="container text-center"> Procure a dica certa para voce:</p>
+            <Input/>
+            <Cards/>
             <Footer/>
-            <Card/>
-            
         </div>
     )
 }

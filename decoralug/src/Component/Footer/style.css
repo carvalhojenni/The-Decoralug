@@ -1,4 +1,9 @@
 .footer{
-    background: pink;
+    background: #fff2f2;
     height: 100px;
+}
+
+
+.footer-tamanho{
+height: 60px;
 }
