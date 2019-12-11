@@ -1,56 +1,26 @@
 import React from 'react'
 import { Card, CardColumns } from 'react-bootstrap'
-import Imagens from '../../../../imagens/header.jpg'
 
 
+import './style.css'
 
-function Cards(){
-    return(
-        <div>
-            <CardColumns>
-  <Card>
-    <Card.Img variant="top" src={Imagens} />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
 
-  <Card>
-    <Card.Img variant="top" src={Imagens} />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={Imagens} />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-</CardColumns>
-        </div>
-    )
+function Cards(props) {
+  return (
+    <div>
+      <CardColumns>
+        <Card>
+          <Card.Img variant="top" src={props.card.img} />
+          <Card.Body>
+              <Card.Title>{props.card.titulo}</Card.Title>
+            <Card.Text>
+            {props.card.texto}
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardColumns>
+    </div>
+  )
 }
 
 export default Cards
