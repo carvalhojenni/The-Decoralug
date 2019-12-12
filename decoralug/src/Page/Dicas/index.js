@@ -4,9 +4,9 @@ import Header from '../../Component/Header'
 import Footer from '../../Component/Footer'
 import Cards from './component/Cards'
 import { getCard } from '../../service/base'
-import { InputGroup, Button, FormControl, Card } from 'react-bootstrap'
+import { InputGroup, Button, FormControl, Card, Container as div, Row, Col } from 'react-bootstrap'
 import Buscar from '../../imagens/buscar.png'
-import Container from 'react-bootstrap/Container'
+// import div from 'react-bootstrap/Container'
 
 import './style.css'
 
@@ -56,9 +56,9 @@ class Dicas extends React.Component {
             <div>
                 <Nav />
                 <Header />
-                <h1 className="container text-center"> Procure a dica certa para voce:</h1>
+                <h1 className="titulo container text-center"> Procure a dica certa para voce:</h1>
                 
-                <InputGroup className="mb-3 container">
+                <InputGroup className="div-input mb-3 container">
                     <FormControl
                         value={this.state.valor}
                         onChange={this.handleChange}
@@ -72,13 +72,18 @@ class Dicas extends React.Component {
                         </Button>
                     </InputGroup.Append>
                 </InputGroup>
-                <Container className="cards">
+                <Row>
+
                 {this.state.card.length > 0 ?
                     this.state.filteredCard.map(card => {
-                        return <Cards card={card} key={card.id} />
+                        return (
+                            <Col sm={12} md={6} lg={6}>
+                                <Cards card={card} key={card.id} />
+                            </Col>
+                        )
                     }) : <span>Carregando Conteudo</span>
                 }
-                </Container>
+                </Row>
                 <Footer />
             </div>
         )

@@ -1,4 +1,9 @@
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
     background: #fff2f2;
     height: 100px;
 }
@@ -6,4 +11,12 @@
 
 .footer-tamanho{
 height: 60px;
+}
+
+.contato{
+    color: #2F7343;
+}
+
+.contato img{
+    width: 30px;
 }

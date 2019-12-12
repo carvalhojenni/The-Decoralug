@@ -1,4 +1,11 @@
-.cards{
+
+.card-columns{
     display: flex;
-    flex-direction: row;
+    margin: 0 auto;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.div-cards{
+    display: flex;
 }

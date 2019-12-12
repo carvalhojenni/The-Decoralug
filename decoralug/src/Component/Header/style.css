@@ -1,0 +1,12 @@
+
+@media (max-height: 425px){
+    .header img{
+        height: 200px;
+    }
+}
+
+@media (min-height: 1024px){
+    .header img{
+        height: 400px ;
+    }
+}

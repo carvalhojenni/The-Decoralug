@@ -1,6 +1,7 @@
 .nav-tamanho{
 background-color: #fff2f2;
 
+height: 60px;
 }
 
 .nav-img{
@@ -9,4 +10,16 @@ height: 80px;
 
 .navbar-expand-lg .navbar-nav{
     font-size: 20px;
+}
+
+@media(max-width: 375px){
+    .nav-tamanho{
+        height: 90px;
+    }
+}
+
+@media (min-width: 425px){
+    .nav-tamanho{
+        height: 90px;
+    }
 }
