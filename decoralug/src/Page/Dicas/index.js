@@ -56,16 +56,16 @@ class Dicas extends React.Component {
             <div>
                 <Nav />
                 <Header />
-                <h1 className="titulo container text-center"> Procure a dica certa para voce:</h1>
+                <h1 className="titulo container mb-5 text-center"> Procure a dica certa para voce:</h1>
                 
-                <InputGroup className="div-input mb-3 container">
+                <InputGroup className=" mb-5 container">
                     <FormControl
                         value={this.state.valor}
                         onChange={this.handleChange}
                         placeholder="Digite aqui"
                         aria-label="Recipient's username"
                         aria-describedby="basic-addon2"
-                    />
+                        />
                     <InputGroup.Append>
                         <Button onClick={() => this.handleClick()} variant="outline-secondary">
                             <img src={Buscar}></img>
@@ -73,11 +73,10 @@ class Dicas extends React.Component {
                     </InputGroup.Append>
                 </InputGroup>
                 <Row>
-
                 {this.state.card.length > 0 ?
                     this.state.filteredCard.map(card => {
                         return (
-                            <Col sm={12} md={6} lg={6}>
+                            <Col sm={12} md={6} className="p-0">
                                 <Cards card={card} key={card.id} />
                             </Col>
                         )

@@ -8,7 +8,7 @@ function Sobre() {
     return (
         <div className="container text-center ">
             <div className="div-titulo">
-            <h1 className="texto"> Sobre nos</h1>
+            <h1 className="texto"> Sobre The Decoralug</h1>
             </div>
             <div className="container-flex">
             <Image src={Imagem} fluid miniatura />

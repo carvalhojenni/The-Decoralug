@@ -12,8 +12,9 @@ function Cards(props) {
         <Card>
           <Card.Img variant="top" src={props.card.img} />
           <Card.Body>
-              <Card.Title>{props.card.titulo}</Card.Title>
-            <Card.Text>
+              <Card.Title className="titulo">{props.card.titulo}</Card.Title>
+          <hr/>
+            <Card.Text className="texto">
             {props.card.texto}
             </Card.Text>
           </Card.Body>

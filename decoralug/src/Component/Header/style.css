@@ -1,12 +1,22 @@
+/* .header{
+    height: ;
+} */
 
+.header img{
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* 
 @media (max-height: 425px){
     .header img{
-        height: 200px;
+        height: 100px;
     }
 }
 
 @media (min-height: 1024px){
     .header img{
-        height: 400px ;
+        height: 300px ;
     }
-}
+} */
