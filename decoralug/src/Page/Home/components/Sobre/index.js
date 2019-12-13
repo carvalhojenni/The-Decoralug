@@ -13,11 +13,11 @@ function Sobre() {
             <div className="container-flex">
             <Image src={Imagem} fluid miniatura />
             <div className="tamanho-texto">
-            <hr/>
-                <p>O Decoralug foi criado para ajudar e dar dicas para você que esta pensado ou já alugou um apartamento. Sabemos que a nossa casa interfere muito no nosso humor, e quando nos dedicamos a deixa-la um pouco mais confortavel, percebemos como o humor muda! Sua casa pode ser confortavel e a sua casa sem obras enormes! 
+            {/* <hr/> */}
+                <p>O Decoralug foi criado para ajudar e dar dicas para você que esta pensado ou já alugou um apartamento. Sabemos que a nossa casa interfere muito no nosso humor, e quando nos dedicamos a deixa-la um pouco mais confortavel, percebemos como o humor muda! Sua casa pode ser confortavel, sem obras enormes! 
                 </p>
             <hr/>
-                <strong><h3>Conforto não é questao de luxo!</h3></strong>
+                <strong><h3>Conforto não é questão de luxo!</h3></strong>
             </div>
             </div>
         </div>

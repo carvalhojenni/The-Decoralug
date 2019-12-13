@@ -56,7 +56,7 @@ class Dicas extends React.Component {
             <div>
                 <Nav />
                 <Header />
-                <h1 className="titulo container mb-5 text-center"> Procure a dica certa para voce:</h1>
+                <h1 className="titulo container mb-5 text-center"> Encontre a dica certa para você:</h1>
                 
                 <InputGroup className=" mb-5 container">
                     <FormControl
@@ -72,7 +72,7 @@ class Dicas extends React.Component {
                         </Button>
                     </InputGroup.Append>
                 </InputGroup>
-                <Row>
+                <Row className="card-div">
                 {this.state.card.length > 0 ?
                     this.state.filteredCard.map(card => {
                         return (

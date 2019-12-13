@@ -7,7 +7,7 @@ import './style.css'
 
 function Cards(props) {
   return (
-    <div>
+    <div className="cardizinho">
       <CardColumns>
         <Card>
           <Card.Img variant="top" src={props.card.img} />

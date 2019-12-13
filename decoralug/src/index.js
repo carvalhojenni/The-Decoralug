@@ -11,7 +11,7 @@ import PorOndeAlugar from './Page/PorOndeAlugar';
 
 ReactDOM.render(
     <Router>
-        <Route exact path='/' component={Home} / >
+        <Route exact path='/' component={App} / >
         <Route path='/Home' component={Home} />
         <Route path='/Dicas' component={Dicas} />
         <Route path='/PorOndeAlugar' component={PorOndeAlugar} />

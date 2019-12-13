@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const config = {
-    baseURL: 'http://my-json-server.typicode.com/carvalhojenni/cards',
+    baseURL: 'http://my-json-server.typicode.com/carvalhojenni/cards-apps',
     timeout: 1000
 }
 

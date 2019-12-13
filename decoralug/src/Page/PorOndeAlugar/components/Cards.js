@@ -1,22 +1,28 @@
-// import React from 'react'
-// import { Card, CardColumns } from 'react-bootstrap'
+import React from 'react'
+import { Card, CardColumns, Button } from 'react-bootstrap'
 
-// function Cards(props) {
-//     return (
-//         <div>
-//             <CardColumns>
-//                 <Card>
-//                     <Card.Img variant="top" src={props.card.apps.img} />
-//                     <Card.Body>
-//                         <Card.Title>{props.card.apps.titulo}</Card.Title>
-//                         <Card.Text>
-//                             {props.card.apps.texto}
-//                         </Card.Text>
-//                     </Card.Body>
-//                 </Card>
-//             </CardColumns>
-//         </div>
-//     )
-// }
+import './style.css'
 
-// export default Cards
+function Cards(props) {
+    return (
+        <div>
+            <CardColumns>
+                <Card>
+                    <Card.Img variant="top" src={props.card.img} />
+                    <Card.Body>
+                        <Card.Title className="titulo">{props.card.titulo}</Card.Title>
+                    <hr/>
+                        <Card.Text className="texto">
+                            {props.card.texto}
+                        </Card.Text>
+                        <a href={props.card.link}>
+                        <Button className="btn" variant="primary">Saiba mais</Button>
+                        </a>
+                    </Card.Body>
+                </Card>
+            </CardColumns>
+        </div>
+    )
+}
+
+export default Cards

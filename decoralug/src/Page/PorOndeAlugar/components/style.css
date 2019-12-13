@@ -11,3 +11,7 @@ hr{
 .texto{
     text-align: justify;
 }
+
+.btn{
+    background-color: green;
+}

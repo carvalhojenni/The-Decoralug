@@ -12,7 +12,7 @@ function Footer(){
         <footer className='footer'>
             <img src={Logo} alt="logo do Decoralug" className="footer-tamanho "></img>
             <div className="contato">
-            <p className="text-center">Contatos</p>
+            {/* <p className="text-center">Contatos</p> */}
                 <img  h src={Face} alt="Logo do Facebook"/>
                 <a href="https://www.instagram.com/thedecoralug/"><img src={Insta} alt="Logo do Instagram"/> </a>
                 <img src={Pin} alt="Logo do Pinterest"/>
