@@ -8,12 +8,16 @@ function Sobre() {
     return (
         <div className="container text-center ">
             <div className="div-titulo">
-            <h1 className="texto"> Sobre The Decoralug</h1>
+            <h1 className="texto text-center"> Sobre The Decoralug</h1>
             </div>
             <div className="container-flex">
             <Image src={Imagem} fluid miniatura />
             <div className="tamanho-texto">
-                <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            <hr/>
+                <p>O Decoralug foi criado para ajudar e dar dicas para você que esta pensado ou já alugou um apartamento. Sabemos que a nossa casa interfere muito no nosso humor, e quando nos dedicamos a deixa-la um pouco mais confortavel, percebemos como o humor muda! Sua casa pode ser confortavel e a sua casa sem obras enormes! 
+                </p>
+            <hr/>
+                <strong><h3>Conforto não é questao de luxo!</h3></strong>
             </div>
             </div>
         </div>

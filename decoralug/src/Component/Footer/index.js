@@ -13,8 +13,8 @@ function Footer(){
             <img src={Logo} alt="logo do Decoralug" className="footer-tamanho "></img>
             <div className="contato">
             <p className="text-center">Contatos</p>
-                <img src={Face} alt="Logo do Facebook"/>
-                <img src={Insta} alt="Logo do Instagram"/>
+                <img  h src={Face} alt="Logo do Facebook"/>
+                <a href="https://www.instagram.com/thedecoralug/"><img src={Insta} alt="Logo do Instagram"/> </a>
                 <img src={Pin} alt="Logo do Pinterest"/>
             </div>
         </footer>

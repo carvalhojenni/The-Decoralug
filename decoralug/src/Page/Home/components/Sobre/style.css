@@ -27,3 +27,15 @@
         flex-direction: column;
     }
 }
+
+
+.tamanho-texto hr{
+    background-color: pink;
+}
+
+p{
+    color: green;
+}
+strong{
+    color: green;
+}
