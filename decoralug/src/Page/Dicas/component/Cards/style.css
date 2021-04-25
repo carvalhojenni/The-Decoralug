@@ -1,0 +1,13 @@
+.titulo{
+    text-align: center;
+    color: green;
+    padding: 10px;
+}
+
+hr{
+    background-color: green;
+}
+
+.texto{
+    text-align: justify;
+}
